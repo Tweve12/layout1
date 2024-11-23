@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Roboto'; /* Название шрифта */
+    src: url('./fonts/Roboto-Black.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+p, h1, button{    
+    font-family: sans-serif;
+    color: #32363f;
+    font-weight: bold;
+
+}
+
+.main-div{
+    margin: auto 24px;
+
+}
+
+.card-title {
+    margin-top: -40px;
+}
+
+.headerImg{
+    width: 50px;
+    height: 42px;
+    margin: 19px auto 39px auto;
+
+}
+
+.border{
+    width: 5520px;
+    border-top: 1px solid #F3F3F3;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-text{
+    margin-left: 10px;
+}
+
+.hText{
+
+    text-align: start;
+    margin: 20px 10px auto 10px;
+    font-size: 30px;
+}
+
+.card-price{
+    margin-top: -9px;
+    margin-bottom: 16px;
+    color: #489DFF;
+}
+
+.card-button{
+    border: none;
+    border-radius: 7px;
+    padding: 16px 50px;
+    background-color: #489DFF;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
